@@ -1,11 +1,9 @@
-# Richardson Ebinezar — Portfolio
+Richardson Ebinezar — Enterprise Solution & Service Reliability Portfolio
 
-A responsive personal portfolio for Observability, Production Engineering and Application Reliability.
+Deployment:
+1. Upload index.html and profile.jpg to the root of your GitHub repository.
+2. Keep both files in the same directory.
+3. GitHub Pages: Settings > Pages > Deploy from a branch > main > /(root).
+4. Commit changes and refresh the published site.
 
-## Publish with GitHub Pages
-1. Keep `index.html` and `profile.jpg` in the repository root.
-2. In Settings → Pages, choose Deploy from a branch.
-3. Select `main` and `/ (root)`, then Save.
-4. Visit https://richardson100.github.io/richardson-portfolio/
-
-The profile photo is loaded locally from `profile.jpg`; do not rename or move it into a subfolder.
+The profile image is referenced as ./profile.jpg. Do not upload it inside a nested folder.
