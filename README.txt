@@ -1,20 +1,11 @@
-RICHARDSON EBINEZAR — PORTFOLIO
+# Richardson Ebinezar — Portfolio
 
-Preview: open index.html in a modern browser.
+A responsive personal portfolio for Observability, Production Engineering and Application Reliability.
 
-Contact details included:
-Email: richardsonebinezar2000@gmail.com
-Phone: +91 82207 48927
-LinkedIn: https://www.linkedin.com/in/richardson-ebinezar-e-x-1763ab187/
+## Publish with GitHub Pages
+1. Keep `index.html` and `profile.jpg` in the repository root.
+2. In Settings → Pages, choose Deploy from a branch.
+3. Select `main` and `/ (root)`, then Save.
+4. Visit https://richardson100.github.io/richardson-portfolio/
 
-Before publishing, verify:
-- Your exact employment start month/year and experience duration.
-- Whether any Datadog/SRE certification should be named (only add verified credentials).
-- Add a resume PDF link if you want a downloadable CV.
-- Check all project descriptions for confidentiality and accuracy.
-
-Publish free with GitHub Pages:
-1. Create a GitHub repository.
-2. Upload index.html.
-3. Open Settings > Pages.
-4. Select Deploy from a branch, choose main and / (root), then Save.
+The profile photo is loaded locally from `profile.jpg`; do not rename or move it into a subfolder.

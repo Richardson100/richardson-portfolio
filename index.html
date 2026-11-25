@@ -42,11 +42,18 @@ footer{padding:30px 0 42px;color:#858995;display:flex;justify-content:space-betw
 .reveal{opacity:0;transform:translateY(22px);transition:opacity .7s ease,transform .7s ease}.reveal.show{opacity:1;transform:none}
 @media(max-width:850px){.navlinks{display:none}.shell{padding:0 22px}header{padding:0 14px}.hero{min-height:690px}.f1{left:0}.f2{right:0}.f3{left:0}.f4{right:0}.about-panel,.metric-grid,.work-card,.skills-card,.education{grid-column:span 12}.section-top{display:block}.section-desc{margin-top:16px}.contactbox{padding:38px 27px}}
 @media(max-width:540px){.shell{padding:0 17px}.localtime{display:none}.hero{padding:90px 0 100px;min-height:680px}h1{font-size:54px}.hero-copy{font-size:16px}.float-card{padding:9px 10px;font-size:10px}.float-card .icon{width:26px;height:26px}.f1{top:13%}.f2{top:13%}.f3{bottom:10%}.f4{bottom:10%}.section{padding:70px 0}.panel{padding:24px}.metric{padding:18px}.metric strong{font-size:29px}.experience{grid-template-columns:1fr;gap:8px}.exp-content{padding-left:19px}.work-card{min-height:290px}.contactbox h2{font-size:44px}footer{display:block;line-height:2}}
+
+/* Profile portrait */
+.brand-photo{width:38px;height:38px;object-fit:cover;object-position:center 35%;border-radius:50%;border:2px solid #fff;outline:2px solid var(--blue);box-shadow:0 4px 14px #3158e82b}
+.hero-portrait-wrap{width:156px;height:156px;margin:0 auto 25px;position:relative;padding:7px;border-radius:50%;background:linear-gradient(135deg,var(--blue),#9db0ff 55%,var(--lime));box-shadow:0 18px 45px #3158e82b}
+.hero-portrait{width:100%;height:100%;display:block;object-fit:cover;object-position:center 32%;border-radius:50%;border:5px solid var(--white)}
+.portrait-spark{position:absolute;right:-5px;bottom:13px;width:35px;height:35px;border-radius:50%;background:var(--lime);border:4px solid var(--bg);display:grid;place-items:center;font-size:15px;color:var(--ink)}
+@media(max-width:700px){.hero-portrait-wrap{width:126px;height:126px;margin-bottom:20px}.brand-photo{width:34px;height:34px}}
 </style>
 </head>
 <body>
 <header><nav class="nav">
-<a class="brand" href="#home"><span class="brandmark">RE</span> Richardson <em>.</em></a>
+<a class="brand" href="#home"><img class="brand-photo" src="profile.jpg" alt="Richardson Ebinezar profile photo"> Richardson <em>.</em></a>
 <div class="navlinks"><a class="active" href="#home">Home</a><a href="#about">About</a><a href="#experience">Experience</a><a href="#work">Work</a><a href="#skills">Toolkit</a><a href="#contact">Contact</a></div>
 <div class="navright"><span class="localtime"><i class="online"></i>AVAILABLE TO CONNECT</span><a class="navcta" href="#contact">Say hello ↗</a></div>
 </nav></header>
